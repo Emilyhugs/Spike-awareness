@@ -14,7 +14,7 @@
     /*Neon Pink*/
     --last-highlight-color: #20d0ec;
     /*Light blue*/
-
+}
 
 /* Main content */
 main {
@@ -34,6 +34,7 @@ main {
 }
 
 .hero-text {
+    font-family: var(--secondary-font);
     color: white;
     font-size: 250%;
     position: absolute;
