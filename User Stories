@@ -1,0 +1,99 @@
+Potential user Personas:
+1)Young Adult who likes to go out 
+2)Concerned parent
+3)Victim's of spiking
+4)Venue Owner
+5)Healthcare Professional
+6)Researcher/invesigator/journalist 
+
+User Stories 
+User Story 1: User friendly navigation and responsive design (must-have)
+User story: As a First-Time Visitor of the page, I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently without frustration.
+
+Acceptance Criteria
+
+The website is fully responsive across various devices and screen sizes.
+Site layout and navigation are intuitive, allowing easy access to different sections.
+
+Tasks
+
+Apply responsive design principles using Bootstrap to ensure the website is accessible on various devices.
+Arrange the site layout and navigation based on best practices, ensuring all key sections and pages are easily accessible.
+
+
+User Story 2: Easily understandable list of symptoms of being spiked (must-have)
+User story: As a young adult who likes to go out, I want to know what symptoms to identify if I suspect a friend or I have been spiked so that I can take action. 
+Acceptance Criteria
+
+The website provides a clear and easy-to-read list of physical and behavioral symptoms that may indicate someone has been spiked.
+
+Tasks
+
+Design and place card sections of physical and behavioural symptoms of being spiked using bootstrap.
+Use appropriate icons/images and headings and paragraphs to make the information easily accessible. 
+
+User Story 3: Easily actionable steps to take if I/my friend have been spiked (must-have)
+User story: As a young adult who likes to go out, I want to know what steps to take if I suspect a friend or I have been spiked so that I can take action quickly. 
+
+Acceptance Criteria
+
+The website provides a clear and easy-to-read list of steps to take when someone shows indications of being spiked.
+
+Tasks
+
+Design and place card sections of the steps to take when someone has been spiked using bootstrap.
+Use appropriate icons/images and headings and paragraphs to make the information easily accessible. 
+
+User Story 4: Links & contact details of help resources (must-have)
+User story: As a young adult who likes to go out, I want to know who to contact if I suspect a friend or I have been spiked so that I can get the help I need.  
+
+Acceptance Criteria
+
+The website provides a clear and easy-to-read list of contacts to contact in the event of someone being spiked.
+
+Tasks
+
+Design and place card sections of who to contact when somebody has been spiked using bootstrap.
+Use appropriate icons/images and headings and paragraphs to make the information easily accessible.
+Ensure the contact section is clearly visible and accessible from all parts of the website, adhering to common design standards. 
+
+User story 5:  Learn How to Stay Safe at Parties and Events (should-have)
+User story: As a young adult who likes to go out, I want to quickly access information on how to protect myself from drink spiking at parties and events,
+So that I can have fun while staying safe and be aware of the risks.
+
+User story 5: Section to see other victim's stories to build trust and a ssnse of community (could-have)
+User story: As a victim of spiking, I want to read stories and experiences shared by other victims, so that I can feel less isolated, understand that others have gone through similar situations, and gain strength from their recovery journeys.
+
+Acceptance Criteria
+
+The website includes a section dedicated to displaying victim's stories.
+The victim's stories are clearly visible and presented in a format that is easy to read and navigate.
+
+Tasks
+Using bootstrap testimonials, create a section to display pre-written victim's stories.
+
+User story 6: Learn what spiking is (must-have)
+User story: As someone who wants to know more about spiking,I want to understand what spiking is so that I can be better informed and more aware of the issue. 
+
+Acceptace Criteria
+
+The homepage features a prominent section to inform website user's what spiking is.
+This section is easily accessible and easy to read so user's can quickly learn what spiking is. 
+
+Tasks
+
+Design and place an about section directly underneath the header which descibes what spiking is.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
