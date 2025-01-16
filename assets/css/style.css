@@ -26,21 +26,44 @@ main {
 }
 
 /* Hero section */
-#hero {
-    height: 600px;
+
+.hero {
+    height: 800px;
     width: 100%;
-    background: url("../images/hero-image.png") no-repeat center center/cover;
+    background: linear-gradient(rgba(33, 30, 30, 0.342), rgba(0, 0, 0, 0.342)), url("../images/hero-image.alt.webp") no-repeat center center/cover;
     position: relative;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
 }
 
 .hero-text {
     font-family: var(--secondary-font);
     color: white;
-    font-size: 250%;
-    position: absolute;
-    bottom: 40px;
-    width: 80%;
+    position: relative;
+    text-align: center;
+    width: 40%;
     min-height: 200px;
     padding-top: 40px;
-    padding-left: 10px;
-}
+    padding-bottom: 20px;
+    }
+    .hero-text h1 {
+        font-size: 5rem;
+        margin-bottom: 20px;
+    }
+    .hero-text p {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+
+
+
+  
+
+
+
+
+
+
+
+
