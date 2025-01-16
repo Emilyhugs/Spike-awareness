@@ -18,7 +18,7 @@
 
 /*Global Styles*/
 h1,
-h2 {
+h2,h3 {
     font-family: var(--secondary-font);
     color: var(--highlight-color)
 }
@@ -77,8 +77,6 @@ p {
 .dropdown-item {
     text-transform: uppercase;
 }
-
-
 
 
 /* Main content */
@@ -157,9 +155,11 @@ main {
 }
 
 #what-are-the-symptoms {
-    background-color: var(--last-highlight-color);
-    padding: 5% 5%;
-}
+    background-color:#080d19; /* Dark grey */
+        color: var(--secondary-color); /* Adjust text color as needed */
+        padding: 5% 5%;
+    }
+
 
 #what-to-do-if-you-suspect-spiking {
     background-color: whitesmoke;
@@ -196,19 +196,44 @@ main {
 /*Footer Section*/
 footer {
     background-color: var(--primary-color);
+    color: var(--last-highlight-color);
+    padding: 20px;
+    text-align: center;
 }
 
-.social-networks i {
-    color: var (--highlight-color);
+footer a {
+    color: var(--last-highlight-color);
+    text-decoration: none;
 }
 
-#social-networks i {
-    font-size: 100%;
-    padding: 5%;
-    color: #3a3a3a;
+footer a:hover {
+    text-decoration: underline;
 }
+.social-networks {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.social-networks i {font-size: 2rem}
 
 
+    .btn-footer {
+        background-color: var(--primary-color);
+        color: var(--last-highlight-color);
+        border: 2px solid var(--last-highlight-color);
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    
+    .btn-footer:hover {
+        background-color: var(--highlight-color);
+        color: var(--secondary-color) !important;
+    }
+    
+   
 
 
 
