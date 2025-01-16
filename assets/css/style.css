@@ -24,6 +24,8 @@
 
     h5 {font-family: var(--secondary-font);}
 
+    p {font-family: var(--primary-font);}
+
 /*Navbar Styling*/
 .navbar-custom {
     background-color:var(--primary-color);}
@@ -49,7 +51,7 @@
     .nav-item, .nav-link, .dropdown, .dropdown-item, .active
     {font-family: var(--primary-font);
         color: var(--last-highlight-color)!important;
-        font-size: 1rem;}
+        font-size: 1.2rem;}
 
         .navbar-toggler
         {background-color: var(--last-highlight-color)!important;}
@@ -132,7 +134,7 @@ main {
 
     #what-are-the-symptoms {
         background-color: var(--last-highlight-color);
-        padding: 5%;
+        padding: 2%;
         text-align: center;
     }
     .card:hover {
