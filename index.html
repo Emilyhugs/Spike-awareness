@@ -23,7 +23,7 @@
     <script src="https://kit.fontawesome.com/f92ce67920.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="d-flex flex-column min-vh-100">
+<body class="d-flex flex-column min-vh-100" id=bootstrap-overrides">
     <!--Navigation-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -59,13 +59,43 @@
     </nav>
     <!--Header with hero image-->
     <header>
-        <section class=" hero d-flex justify-content-center align-items-center">
+        <section class="hero">
             <div class="container">
                 <div class="hero-text">
                     <h1>Spike Awareness</h1>
                     <p class="lead">Here to spike awareness, not drinks</p>
-                    <a href="#" class="btn btn-outline-light"><img src="assets/images/logo-no-background.png" alt="Logo"
-                            width="50" height="40">Click Here to Share</a>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Click to Share <img src="assets/images/logo-no-background.png" alt=" Hedgehog-Logo"
+                    width="50" height="40">
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Share this Webpage</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><a href="ggg"></a></p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- <a href="#" class="btn btn-outline-light"><img src="assets/images/logo-no-background.png" alt="Logo"
+                            width="50" height="40">Click Here to Share</a> -->
                 </div>
             </div>
         </section>
@@ -88,10 +118,14 @@
                     </div>
         </section>
         <!--Section for 'What are the symptoms?'-->
-        <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam qui officiis, dolorem repudiandae ea aliquam excepturi modi aperiam non culpa magnam illo ad nobis veritatis dolore perferendis ducimus necessitatibus rem.</P>
+        <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam qui officiis, dolorem repudiandae ea aliquam
+            excepturi modi aperiam non culpa magnam illo ad nobis veritatis dolore perferendis ducimus necessitatibus
+            rem.</P>
 
         <!--Section for 'Victim's stories-->
-        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim possimus expedita numquam doloremque eum ea necessitatibus facere, veritatis totam animi tempora nihil dicta similique, amet temporibus vitae consectetur eos voluptatibus.</P>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim possimus expedita numquam doloremque eum ea
+            necessitatibus facere, veritatis totam animi tempora nihil dicta similique, amet temporibus vitae
+            consectetur eos voluptatibus.</P>
     </main>
     <footer></footer>
 
