@@ -35,6 +35,12 @@
     left: 0;
     z-index: 1030;}
 
+    .navbar-nav .nav-item .nav-link:hover {
+        color: var(--highlight-color)!important;
+        background-color:white;
+        border-radius: 10px;
+      }
+
 .navbar-nav .nav-item {
     margin-right: 30px; 
     font-size: 1.1rem;
@@ -48,6 +54,8 @@
         .navbar-toggler
         {background-color: var(--last-highlight-color)!important;}
         .dropdown-menu {background-color:grey!important;}
+
+       
 
 
 /* Main content */
@@ -123,10 +131,14 @@ main {
 
     #what-are-the-symptoms {
         background-color: var(--last-highlight-color);
-        color: var(--secondary-color);
         padding: 5%;
         text-align: center;
     }
+    .card:hover {
+        box-shadow: 0 0 10px var(--highlight-color);
+        border: 5px outset var(--primary-color);
+    }
+        
 
 
 
