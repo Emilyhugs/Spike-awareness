@@ -16,7 +16,7 @@
     /*Light blue*/
 
     /*Global Styles*/
-    h1 {
+    h1, h2 {
         font-family: var(--secondary-font);
         color:var(--highlight-color)
     }
@@ -41,6 +41,10 @@
     {font-family: var(--primary-font);
         color: var(--last-highlight-color)!important;
         font-size: 1rem;}
+
+        .navbar-toggler
+        {background-color: var(--last-highlight-color)!important;}
+        .dropdown-menu {background-color:grey!important;}
 
 
 /* Main content */
@@ -83,6 +87,17 @@ main {
         margin-bottom: 20px;
     }
 
+    /*About Section*/
+    #what-is-spiking {
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+        padding: 5%;
+        text-align: center;
+    }
+
+
+
+/*Footer Section*/
   .social-networks i background-color: var(--primary-color);
     #social-networks i {
         font-size: 160%;
