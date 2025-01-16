@@ -37,8 +37,8 @@
 
     .navbar-nav .nav-item .nav-link:hover {
         color: var(--highlight-color)!important;
-        background-color:white;
         border-radius: 10px;
+        text-decoration: underline;
       }
 
 .navbar-nav .nav-item {
@@ -53,7 +53,8 @@
 
         .navbar-toggler
         {background-color: var(--last-highlight-color)!important;}
-        .dropdown-menu {background-color:grey!important;}
+        .dropdown-menu {background-color:var (-primary-color)!important;}
+        .dropdown-item {text-transform:uppercase;}
 
        
 
