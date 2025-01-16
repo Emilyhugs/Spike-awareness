@@ -6,7 +6,7 @@
 :root {
     --primary-font: 'Roberto', sans-serif;
     --secondary-font: 'Oswald', sans-serif;
-    --primary-color: #1a1a60;
+    --primary-color: #080d19;
     /*Dark blue*/
     --secondary-color: #ffffff;
     /*White*/
@@ -14,16 +14,19 @@
     /*Neon Pink*/
     --last-highlight-color: #20d0ec;
     /*Light blue*/
+}
 
     /*Global Styles*/
     h1, h2 {
         font-family: var(--secondary-font);
         color:var(--highlight-color)
     }
-}
+
+    h5 {font-family: var(--secondary-font);}
+
 /*Navbar Styling*/
 .navbar-custom {
-    background-color: var(--primary-color);}
+    background-color:var(--primary-color);}
 
 .fixed-top {
     position: fixed;
@@ -95,6 +98,11 @@ main {
         text-align: center;
     }
 
+    .description-text-container .row {
+        display: flex;
+        align-items: center;
+    }
+
     .video-container {
         position: relative;
         padding-bottom: 56.25%; /* 16:9 aspect ratio */
@@ -113,12 +121,20 @@ main {
         border: 0;
     }
 
+    #what-are-the-symptoms {
+        background-color: var(--last-highlight-color);
+        color: var(--secondary-color);
+        padding: 5%;
+        text-align: center;
+    }
+
 
 
 /*Footer Section*/
-  .social-networks i background-color: var(--primary-color);
+footer {background-color: var(--primary-color);}
+  .social-networks i {color: var (--highlight-color);}
     #social-networks i {
-        font-size: 160%;
+        font-size: 100%;
         padding: 5%;
         color: #3a3a3a;}
    
