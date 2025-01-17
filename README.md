@@ -170,14 +170,14 @@ The Best Practises score of 74 is something I would need to look at in further d
 Use Cases and Reflections:
 Throughout this project, I utilised the GitHub Copilot extension (via external platform Visual Studio Code 3) and Chat GPT to streamline development and testing. I also used [Canva](https://www.canva.com/) to generate my logo image. This was my first time using AI tools so extensively in a coding project, and it massively sped up the process of developing, refining, and debugging.
 
--Development Stage:
+* Development Stage:
 Reflection: I'm more familiar with Chat GPT, so I mainly used this as my resource for suggestions for user stories, colour palettes, fonts and to generate some of the text on the website, refining and fine-tuning everything as I went along.
 It was very helpful to be able to ask AI to generate the exact image I wanted my logo, and made it much faster and easier than trying to manually create or find a suitable image.
 
--Code Creation:
+* Code Creation:
 Reflection: As I am new to software development and can't easily and confidently produce and understand code yet, it was really helpful to have AI to ask to create code for what I wanted and to explain what some of the code's functionality was.
 
--Debugging:
+* Debugging:
 
 Reflection: Debugging with Copilot was helpful, especially when it came to identifying parsing errors.
 Overall Impact:
