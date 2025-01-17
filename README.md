@@ -7,24 +7,25 @@ Spike Awareness is my first individual project developed as part of the Code Ins
 
 The live project can found here: <a href="https://emilyhugs.github.io/Spike-awareness/" target="_blank">Live Project</a>
 
-<h2 align="center" id="TOC">Table of Contents</h2>
+<h2 text-align="center" id="TOC">Table of Contents</h2>
 
 * [Spike Awareness](#spike-awareness)
    - [Overview](#overview)
   - [Table of Contents](#TOC)
 * [Project Planning](#project-planning)
     - [UX Design](#ux-design)
-  - [User Stories](#user-stories)
-   - [Colors](#colors)
-   - [Fonts](#fonts)
-   - [Imagery](#imagery)
-   - [Wireframes](#wireframes)
+      - [User Stories](#user-stories)
+      - [Colors](#colors)
+      - [Fonts](#fonts)
+      - [Imagery](#imagery)
+      - [Wireframes](#wireframes)
 * [Features](#features)
   - [General Features](#general-features)
     - [Navigation and Hero Section](#navigation-and-hero-section)
     - [Bootstrap Cards](#bootstrap-cards)
-    - [Policies Section](#policies-section)
+    - [Info Section](#info-section)
     - [Footer](#footer)
+    - [Modal Contact Form](#modal-contact-form)
     - [Links and Buttons](#links-and-buttons)
   - [Responsive Design](#responsive-design)
 * [Built With](#built-with)
@@ -35,8 +36,6 @@ The live project can found here: <a href="https://emilyhugs.github.io/Spike-awar
 * [Testing](#testing)
 * [Credits](#credits)
   - [Code](#code)
-* [AI Implementation and Orchestration](#ai-implementation-and-orchestration)
-* [Future Enhancements](#future-enhancements)
   - [Content Research](#content-research)
 
 
@@ -56,15 +55,27 @@ The user stories for this project as well as their acceptance criteria and tasks
 * As a user, I want to be informed immediately about the website's purpose with a high quality image and a clear and concise headline
 * As an individual/company seeking more information, I want to contact Spike Awareness so I can ask the questions that I need to.
 
-## Colours
+## Colors
+The colour palette for Spike Awareness was chosen because it is bold and eye-catching, appealing to the majority of the intended users of the site young adults - see [user stories](#user-stories). I wanted to maintain the seriousness of the topic while at the same time making the site a page that young adults would actually want to engage with, especially because the primary purpose of the project is to increase their awareness of spiking and how to respond if it ever happens to them or someone else.
 
-The colour palette for Spike Awareness was chosen because it is bold and eye-catching, appealing to the majority of the intended users of the site (young adults - see [user stories](#user-stories). I wanted to maintain the seriousness of the topic while at the same time making the site a page that young adults would actually want to engage with, especially because the primary purpose of the project is to increase their awareness of spiking and how to respond if it ever happens to them or someone else.
-
-To ensure the colour palette was accessible, I checked with [Colour Contrast Checker](https://colourcontrast.cc/) (also available as extension on [Chrome Web Store](https://chromewebstore.google.com/detail/colour-contrast-checker/nmmjeclfkgjdomacpcflgdkgpphpmnfe)).<br> I also regularly checked if the colour contrast was accessible using Dev tools in my browser.
-
-### Main Palette
+To ensure the colour palette was accessible, I checked with Colour Contrast Checker (also available as extension on Chrome Web Store).
+I also regularly checked if the colour contrast was accessible using Dev tools in my browser.
 
 ![Colour palette](assets/images/readme-images/Colour-palette.png)
+
+# Fonts
+As with the color palette, I also wanted the font to be visually appealing and easily readable for the users to ensure they have a positive experience visiting the website. 
+For this project, I used Oswald and Roberto sans serif fonts and implemented them via [Google Fonts](https://fonts.google.com) using a direct import code within the style.css file.
+
+# Imagery 
+
+I wanted to select an appropriate image for the hero image that conveyed an immediate sense of what the website is about. The hero image, which I downloaded from <a href="https://www.pexels.com/" target="_blank">pexels.com</a>, inspired some of the colour choices in my colour palette too. 
+
+I mainly relied on [Font-Awesome](https://fontawesome.com/) icons so I didn't include many pictures in this project but I would like to encorporate more in future developments. 
+
+However, I used [Canva](https://www.canva.com/) to generate the logo for my website which is incorporated into my design as the favicon, the navbar, and the call to action button. The colours are also used as part of the colour palette for the website. 
+![Logo](assets/images/readme-images/logo-no-background.png)
+
 
 # Wireframes
 
@@ -82,7 +93,34 @@ The wireframes for this project have been created using [Balsamiq](https://balsa
 ![Desktop Wireframe 1](assets/images/readme-images/desktop-wireframe-1.png)
 ![Desktop Wireframe 2](assets/images/readme-images/desktop-wireframe-2.png)
 
+## Features
 
+# Navigation and Hero Section
+
+I chose to use a bold and welcoming hero section for the start of the page because it quickly lets the user know what the website is about and is visually appealing.
+
+Within this section I have included a headline, a tagline, and a button that gives users the option to easily nagivate to the relevant section of the page.
+
+The navigation bar is a Bootstrap component and it allows for easy navigation around. I encorporated the logo in the navbar for easily accessible branding.
+
+![Hero-image](assets/images/readme-images/hero-image.alt.webp)
+
+## Info Section 
+
+The information section provides important information about the spiking. This section means that any user can come to the site and understand what spiking is easily.
+
+I also embedded a youtube video explaining what spiking is, breaking up the page and providing an alternative option to cater for those who find it easier to digest audio/non-static visual imagery. It's also a good way to engage my target audience as young adults make up a large amount of social media users. 
+
+
+## Bootstrap Cards
+I used Bootstrap cards for the sections listing the symptoms of spiking and the action steps for if someone has been spiked. The formatting is good for displaying bitesize chunks of information which is easily digestible.
+
+## Footer
+
+The footer is stuck to the bottom of the site and only visible when the user reaches the end of the page. It displays basic information about the website, social media icons so that the user can go to the site's social media pages. Since Spike Awareness is not a real functioning website, the links just go to the homepage of this website. 
+
+## Modal Contact Form
+Included in the footer section, there is a button which pops up a modal form allowing the user to contact us. The form includes the user's name, email address, and message. 
 
 ## Deployment 
 
@@ -100,8 +138,6 @@ The steps to deploy are as follows:
 * Go back to the Code tab and wait a few minutes before refreshing.
 * On the right-hand side in the Deployments section click on 'github-pages'.
 * The latest deployed link will appear at the top of the page.
-
-
 
 ## Testing
 
@@ -123,40 +159,27 @@ The Best Practises score of 74 is something I would need to look at in further d
 
 ![Lighthouse testing](assets/images/readme-images/lighthouse-score.png)
 
-## AI Implementation and Orchestration
 
-### Use Cases and Reflections:
-
+**AI Implementation and Orchestration**
+Use Cases and Reflections:
 Throughout this project, I utilised the GitHub Copilot extension (via external platform Visual Studio Code 3) and Chat GPT to streamline development and testing. I also used [Canva](https://www.canva.com/) to generate my logo image. This was my first time using AI tools so extensively in a coding project, and it massively sped up the process of developing, refining, and debugging.
 
-- **Development Stage:** 
-  - Reflection: I'm more familiar with Chat GPT, so I mainly used this as my resource for suggestions for user stories, colour palettes, fonts and to generate some of the text on the website, refining and fine-tuning everything as I went along.
-  - It was very helpful to be able to ask AI to generate the exact image I wanted my logo, and made it much faster and easier than trying to manually create or find a suitable image. 
+-Development Stage:
+Reflection: I'm more familiar with Chat GPT, so I mainly used this as my resource for suggestions for user stories, colour palettes, fonts and to generate some of the text on the website, refining and fine-tuning everything as I went along.
+It was very helpful to be able to ask AI to generate the exact image I wanted my logo, and made it much faster and easier than trying to manually create or find a suitable image.
 
-- **Code Creation:** 
-  - Reflection: As I am new to software development and can't easily and confidently produce and understand code yet, it was really helpful to have AI to ask to create code for what I wanted and to explain what some of the code's functionality was.
+-Code Creation:
+Reflection: As I am new to software development and can't easily and confidently produce and understand code yet, it was really helpful to have AI to ask to create code for what I wanted and to explain what some of the code's functionality was.
 
-- **Debugging:** 
-  - Reflection: Debugging with Copilot was helpful, especially when it came to identifying parsing errors. 
+-Debugging:
 
-### Overall Impact:
-Working with AI transformed my workflow. It allowed me to focus on higher-level decisions while handling repetitive tasks efficiently. However, it wasn’t always perfect—some suggestions required significant tweaking to fit my specific needs. Those moments were valuable reminders that the AI wasn’t a replacement for my skills but a tool to enhance them. 
-
-Looking back, I feel this experience not only improved my technical abilities but also my problem-solving skills. It pushed me to articulate my ideas clearly (both to the AI and myself) and made me more mindful of inclusivity and accessibility in software design. Above all, it taught me the importance of embracing new technologies as partners in the creative process.
-
+Reflection: Debugging with Copilot was helpful, especially when it came to identifying parsing errors.
+Overall Impact:
+Working with AI made the process much more efficent. However, sometimes it took a while to get the right prompt to find exactly what I needed, so I learnt to write more detailed prompts and change the wording to get what I wanted.
 
 ## Future Enhancements
--Add a section informing users on how to prevent spiking.
--Add a section to display victims' stories so that user's can feel less isolated by seeing how spiking has affected others.
--Actually make the contact form work so that it goes to a database.
--Make a section giving advice for venues.
--Create social media pages for the site to link to.
--Create a page with links to helpful resources for victims of spiking & those wanting to know more about it.
-- Build multilingual support for non-English-speaking users so that people can become aware of spiking as a safeguarding issue. 
-- Add images to the cards to make the website more visually appealing.
-- Add a modal which allows user's to quickly share the page amongst friends/follows on social media. 
 
-
+-Add a section informing users on how to prevent spiking. -Add a section to display victims' stories so that user's can feel less isolated by seeing how spiking has affected others. -Actually make the contact form work so that it goes to a database. -Make a section giving advice for venues. -Create social media pages for the site to link to. -Create a page with links to helpful resources for victims of spiking & those wanting to know more about it.
 
 
 
@@ -175,4 +198,9 @@ Hero Section
 Bootstrap Cards
 Footer
 
+Deployment 
+
+Testing & Validation 
+
+Use of AI
 
