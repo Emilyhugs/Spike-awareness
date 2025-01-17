@@ -141,6 +141,8 @@ main {
     display: flex;
     align-items: center;
 }
+
+.description-text-container i {font-size:50%;}
 .video-container {
     position: relative;
     flex:2;
@@ -284,9 +286,9 @@ footer a:hover {
 
     .hero-text p {
         font-size: 1.25rem;
-        .description-text-container {align-items: center;}
     }
 }
+
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
