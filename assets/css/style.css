@@ -153,19 +153,20 @@ main {
     height: 100%;
     border: 0;
 }
-
+/*Symptoms section*/
 #what-are-the-symptoms {
     background-color:var(--primary-color); 
         color: var(--secondary-color);
         padding: 5% 5%;
     }
 
-
+/*What to do in a spiking incident*/
 #what-to-do-if-you-suspect-spiking {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     padding: 5% 5%;
 }
+/*Card Styling applies to both symptoms and spiking incident sections */
 .card {
     display: flex;
     flex-direction: column;
@@ -185,9 +186,8 @@ main {
     align-items: center;
     text-align: center;
     height:100%;
-    /* Ensure the card body takes the remaining space */
 }
-
+/*Card border styling when hovered over */
 .card:hover {
     box-shadow: 0 0 10px var(--highlight-color);
     border: 5px outset var(--last-highlight-color);
@@ -217,7 +217,7 @@ footer a:hover {
 }
 .social-networks i {font-size: 2rem}
 
-
+/*Contact Us button styling*/
     .btn-footer {
         background-color: var(--primary-color);
         color: var(--last-highlight-color);
