@@ -56,9 +56,13 @@ The user stories for this project as well as their acceptance criteria and tasks
 * As a user, I want to be informed immediately about the website's purpose with a high quality image and a clear and concise headline
 * As an individual/company seeking more information, I want to contact Spike Awareness so I can ask the questions that I need to.
 
-## Colors
+## Colours
 
-The colour palette for Spike Awareness was chosen because it is bold and eyecatching, appealing to the majority of the intended users of the site (young adults - see user stories). I wanted to maintain the seriousness of the topic while at the same time making the site a page that young adults would actually want to engage with, especially because the primary purpose of the project is to increase their awareness of spiking and how to respond if it ever happens to them or someone else. 
+The colour palette for Spike Awareness was chosen because it is bold and eye-catching, appealing to the majority of the intended users of the site (young adults - see [user stories](#user-stories). I wanted to maintain the seriousness of the topic while at the same time making the site a page that young adults would actually want to engage with, especially because the primary purpose of the project is to increase their awareness of spiking and how to respond if it ever happens to them or someone else.
+
+To ensure the colour palette was accessible, I checked with [Colour Contrast Checker](https://colourcontrast.cc/) (also available as extension on [Chrome Web Store](https://chromewebstore.google.com/detail/colour-contrast-checker/nmmjeclfkgjdomacpcflgdkgpphpmnfe)).<br> I also regularly checked if the colour contrast was accessible using Dev tools in my browser.
+
+### Main Palette
 
 ![Colour palette](assets/images/readme-images/Colour-palette.png)
 
