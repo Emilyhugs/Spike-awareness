@@ -173,7 +173,9 @@ main {
     align-items: center;
     text-align: center;
     height: 100%;
-    /* Ensure the card takes the full height of its container */
+    max-width: 100%;
+    width:100%;
+   
 }
 
 .card-body {
@@ -182,7 +184,6 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
-    flex: 1;
     height:100%;
     /* Ensure the card body takes the remaining space */
 }
@@ -276,6 +277,7 @@ footer a:hover {
 
     .hero-text p {
         font-size: 1.25rem;
+        .description-text-container {align-items: center;}
     }
 }
 
