@@ -28,7 +28,8 @@
     <nav class="navbar navbar-expand-lg fixed-top navbar-custom">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
-                <img src="assets/images/logo-no-background.png" alt="Logo" width="50" height="50"></a>
+                <img src="assets/images/logo-no-background.png" alt="Logo" aria-label="neon-pink hedgehog logo"
+                    width="50" height="50"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -51,7 +52,7 @@
                             </li>
                         </ul>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact-us">Contact Us</a>
                     </li>
 
                 </ul>
@@ -83,31 +84,30 @@
 
     <!--Main content-->
     <main>
-        <!--Section for 'What is Spiking?'-->
-        <section id="what-is-spiking">
-            <div class="description-text-container">
-                <div class="row">
-                    <div class="col-md-6 description-text">
-                        <h1><i class="fa-solid fa-martini-glass-empty"></i> What is spiking? <i
-                                class="fa-solid fa-syringe"></i></h1>
-                        <p class="lead">Spiking is when someone secretly puts a drug or alcohol in your
-                            drink without you knowing. The goal is usually to make you feel
-                            drunk, dizzy, or out of control, often so they can steal from you or assault you.
-                            Spiking can also happen through needles, where
-                            someone injects a drug into you without your consent.</p>
-
+  <!--Section for 'What is Spiking?'-->
+  <section id="what-is-spiking">
+    <div class="description-text-container">
+        <div class="row">
+            <div class="col-md-6 description-text">
+                <h1><i class="fa-solid fa-martini-glass-empty"></i> What is spiking? <i
+                        class="fa-solid fa-syringe"></i></h1>
+                <p class="lead">Spiking is when someone secretly puts a drug or alcohol in your
+                    drink without you knowing. The goal is usually to make you feel
+                    drunk, dizzy, or out of control, often so they can steal from you or assault you.
+                    Spiking can also happen through needles, where
+                    someone injects a drug into you without your consent.</p>
                     </div>
-                    <div class="col-md-6 description-video">
-                        <div class="video-container">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/KU8iR3TcLMo"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen aria-label="YouTube video about drink spiking"></iframe>
-                        </div>
-                    </div>
+            <div class="col-md-6 description-video">
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KU8iR3TcLMo"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen aria-label="YouTube video about drink spiking"></iframe>
                 </div>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
         <!--Section for 'What are the symptoms?'-->
         <section id="what-are-the-symptoms">
             <div class="symptoms-container text-center">
@@ -221,7 +221,7 @@
                     </ul>
                 </div>
 
-                <div class="col-4 text-center">
+                <div id="contact-us" class="col-4 text-center">
                     <button type="button" class="btn btn-footer" data-bs-toggle="modal" data-bs-target="#talkModal"
                         aria-label="Contact us">
                         <h5>Contact us</h5>
@@ -245,21 +245,21 @@
                         <div data-mdb-input-init class="form-outline mb-4">
                             <label class="form-label" for="name-talk">Name</label>
                             <input type="text" id="name-talk" class="form-control">
-                            
+
                         </div>
                         <div data-mdb-input-init class="form-outline mb-4">
                             <label class="form-label" for="email-talk">Email address</label>
                             <input type="email" id="email-talk" class="form-control" placeholder="name@example.com">
-                            <div id="emailHelp" class="form-text">Your email is safe with us – we’ll never share it with anyone.</div>
+                            <div id="emailHelp" class="form-text">Your email is safe with us – we’ll never share it with
+                                anyone.</div>
 
                         </div>
                         <div data-mdb-input-init class="form-outline mb-4">
                             <label class="form-label" for="textarea-talk">Your message</label>
                             <textarea id="textarea-talk" rows="4" class="form-control"></textarea>
-                            
+
                         </div>
-                        <button type="submit" class="btn btn-dark" disabled
-                            aria-label="Send">Send</button>
+                        <button type="submit" class="btn btn-dark" disabled aria-label="Send">Send</button>
                     </form>
                 </div>
             </div>
