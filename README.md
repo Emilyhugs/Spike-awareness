@@ -185,7 +185,12 @@ Working with AI made the process much more efficent. However, sometimes it took 
 
 ## Future Enhancements
 
--Add a section informing users on how to prevent spiking. -Add a section to display victims' stories so that user's can feel less isolated by seeing how spiking has affected others. -Actually make the contact form work so that it goes to a database. -Make a section giving advice for venues. -Create social media pages for the site to link to. -Create a page with links to helpful resources for victims of spiking & those wanting to know more about it.
+* Add a section informing users on how to prevent spiking. 
+* Add a section to display victims' stories so that user's can feel less isolated by seeing how spiking has affected others. 
+* Actually make the contact form work so that it goes to a database. 
+* Make a section giving advice for venues. 
+* Create social media pages for the site to link to. 
+* Create a page with links to helpful resources for victims of spiking & those wanting to know more about it.
 
 ## Credits
 ### Code
