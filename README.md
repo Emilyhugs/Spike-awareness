@@ -178,7 +178,6 @@ It was very helpful to be able to ask AI to generate the exact image I wanted my
 Reflection: As I am new to software development and can't easily and confidently produce and understand code yet, it was really helpful to have AI to ask to create code for what I wanted and to explain what some of the code's functionality was.
 
 * Debugging:
-
 Reflection: Debugging with Copilot was helpful, especially when it came to identifying parsing errors.
 Overall Impact:
 Working with AI made the process much more efficent. However, sometimes it took a while to get the right prompt to find exactly what I needed, so I learnt to write more detailed prompts and change the wording to get what I wanted.
