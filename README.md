@@ -148,7 +148,7 @@ Looking back, I feel this experience not only improved my technical abilities bu
 -Make a section giving advice for venues.
 -Create social media pages for the site to link to.
 -Create a page with links to helpful resources for victims of spiking & those wanting to know more about it.
-- Build multilingual support for non-English-speaking users so that people can be aware of spiking globally, not just for those who can speak English.
+- Build multilingual support for non-English-speaking users so that people can become aware of spiking as a safeguarding issue. 
 - Add images to the cards to make the website more visually appealing.
 - Add a modal which allows user's to quickly share the page amongst friends/follows on social media. 
 
