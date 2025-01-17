@@ -71,11 +71,18 @@ p {
 }
 
 .dropdown-menu {
-    background-color: var (-primary-color) !important;
+    background-color: var(--primary-color) !important;
 }
-
+.dropdown-menu:hover {
+    color: var(--highlight-color) !important;
+}
 .dropdown-item {
     text-transform: uppercase;
+}
+
+
+.dropdown-item:hover {
+    color: var(--highlight-color) !important;
 }
 
 
@@ -157,7 +164,7 @@ main {
 #what-are-the-symptoms {
     background-color:var(--primary-color); 
         color: var(--secondary-color);
-        padding: 5% 5%;
+        padding: 5%;
     }
 
 /*What to do in a spiking incident*/
