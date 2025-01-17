@@ -26,12 +26,12 @@ The live project can found here: <a href="https://emilyhugs.github.io/Spike-awar
     - [Policies Section](#policies-section)
     - [Footer](#footer)
     - [Links and Buttons](#links-and-buttons)
-  - [Resnposive Design](#responsive-design)
+  - [Responsive Design](#responsive-design)
 * [Built With](#built-with)
   - [Technology and Languages](#technologies-and-languages)
   - [Libraries and Frameworks](#libraries-and-frameworks)
   - [Tools & Programs](#tools-and-programs)
-* [Development](#deployment)
+* [Deployment](#deployment)
 * [Testing](#testing)
 * [Credits](#credits)
   - [Code](#code)
@@ -62,6 +62,36 @@ The user stories for this project as well as their acceptance criteria and tasks
 
 The wireframes for this project have been created using [Balsamiq](https://balsamiq.com/)
 
+**Mobile Wireframe**
+![Mobile Wireframe](assets/images/readme-images/mobile-wireframe.png)
+
+**Tablet Wireframe**
+
+![Tablet Wireframe](assets/images/readme-images/tablet-wireframe-1.png)
+![Tablet Wireframe](assets/images/readme-images/tablet-wireframe-2.png)
+
+**Desktop Wireframes**
+![Desktop Wireframe 1](assets/images/readme-images/desktop-wireframe-1.png)
+![Desktop Wireframe 2](assets/images/readme-images/desktop-wireframe-2.png)
+
+
+
+## Deployment 
+
+This [GitHub](https://github.com/) project was created using the [Code Institute Template](https://github.com/Code-Institute-Org/ci-full-template), making the project easier for me to navigate when opening within VS Code linked with the [Gitpod IDE](https://www.gitpod.io/).
+
+Deploying fairly on is a good idea so you can regularly check if there are any bugs/obvious design flaws within a browser and test the website's responsiveness using Dev Tools.
+
+The steps to deploy are as follows:
+* Go to the Settings tab of your GitHub repo.
+* On the left-hand sidebar, in the Code and automation section, select Pages.
+* Make sure the source is set to 'Deploy from Branch'.
+* Make sure the main branch is selected.
+* Make sure the folder is set to / (root).
+* Under Branch, click Save.
+* Go back to the Code tab and wait a few minutes before refreshing.
+* On the right-hand side in the Deployments section click on 'github-pages'.
+* The latest deployed link will appear at the top of the page.
 
 
 
