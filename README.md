@@ -20,23 +20,15 @@ The live project can found here: <a href="https://emilyhugs.github.io/Spike-awar
       - [Imagery](#imagery)
       - [Wireframes](#wireframes)
 * [Features](#features)
-  - [General Features](#general-features)
     - [Navigation and Hero Section](#navigation-and-hero-section)
     - [Bootstrap Cards](#bootstrap-cards)
     - [Info Section](#info-section)
     - [Footer](#footer)
     - [Modal Contact Form](#modal-contact-form)
-    - [Links and Buttons](#links-and-buttons)
   - [Responsive Design](#responsive-design)
-* [Built With](#built-with)
-  - [Technology and Languages](#technologies-and-languages)
-  - [Libraries and Frameworks](#libraries-and-frameworks)
-  - [Tools & Programs](#tools-and-programs)
 * [Deployment](#deployment)
 * [Testing](#testing)
 * [Credits](#credits)
-  - [Code](#code)
-  - [Content Research](#content-research)
 
 
  ## UX Design
@@ -74,12 +66,14 @@ I wanted to select an appropriate image for the hero image that conveyed an imme
 I mainly relied on [Font-Awesome](https://fontawesome.com/) icons so I didn't include many pictures in this project but I would like to encorporate more in future developments. 
 
 However, I used [Canva](https://www.canva.com/) to generate the logo for my website which is incorporated into my design as the favicon, the navbar, and the call to action button. The colours are also used as part of the colour palette for the website. 
+
+I chose to feature a hedgehog as a logo because it visually lends itself to the theme of spiking. Furthermore, Animal logos are seen everywhere and are easily recognisable making them ideal for branding on products/social media. In particular, I was inspired by the branding and overall design style of [Octopus](https://octopus.energy/). 
 ![Logo](assets/images/readme-images/logo-no-background.png)
 
 
 # Wireframes
 
-The wireframes for this project have been created using [Balsamiq](https://balsamiq.com/)
+The wireframes for this project have been created using [Balsamiq](https://balsamiq.com/). They show the key features that guided me in creating my website, ensuring responsiveness across different screen sizes. 
 
 **Mobile Wireframe**
 ![Mobile Wireframe](assets/images/readme-images/mobile-wireframe.png)
@@ -122,6 +116,16 @@ The footer is stuck to the bottom of the site and only visible when the user rea
 ## Modal Contact Form
 Included in the footer section, there is a button which pops up a modal form allowing the user to contact us. The form includes the user's name, email address, and message. 
 
+## Responsive Design 
+For the most part, utilising the [Bootstrap Framework](https://getbootstrap.com/docs/5.3/getting-started/introduction/) allowed me to implement a responsive design fairly easily. 
+
+However, there were some occasions where the responsiveness just wasn't quite right which required experimenting and troubleshooting, especially with the help of AI. There are still some awkward elements but the site does function responsively to different screen sizes. 
+
+Here is what the website looks like on different screens:
+![Responsiveness](assets/images/readme-images/resposiveness.png)
+
+
+
 ## Deployment 
 
 This [GitHub](https://github.com/) project was created using the [Code Institute Template](https://github.com/Code-Institute-Org/ci-full-template), making the project easier for me to navigate when opening within VS Code linked with the [Gitpod IDE](https://www.gitpod.io/).
@@ -144,10 +148,12 @@ The steps to deploy are as follows:
 I tested and debugged the site regularly throughout the process, mainly using Dev Tools on a broswer to quickly identify errors. 
 
 ### Validator Testing
+[HTML Validation](https://validator.w3.org/)
 There is still a warning, but there are no errors in HTML
 
 ![HTML testing](assets/images/readme-images/HTML-checker.png)
 
+[CSS Validation](https://jigsaw.w3.org/css-validator/)
 No errors with CSS
 
 ![CSS testing](assets/images/readme-images/css-validator.png)
@@ -181,26 +187,21 @@ Working with AI made the process much more efficent. However, sometimes it took 
 
 -Add a section informing users on how to prevent spiking. -Add a section to display victims' stories so that user's can feel less isolated by seeing how spiking has affected others. -Actually make the contact form work so that it goes to a database. -Make a section giving advice for venues. -Create social media pages for the site to link to. -Create a page with links to helpful resources for victims of spiking & those wanting to know more about it.
 
+## Credits
+### Code
+* The initial GitHub project was built using the Code Institute template to start.
+* The navigation bar,cards, buttons, and the modal form were built with Bootstrap features.
+* I took inspiration from some of Code Institute's walkthrough projects. 
+* I also took inspiration from previous projections shared with us, including [TheRickyroy](https://github.com/TheRickyroy/astronauts-for-autism)'s project.
+* AI was used to assist with developing, creating, and debugging the website.
+* Logo and colour scheme broadly inspired by [Octopus](https://octopus.energy/) energy.
 
+### Content
+* Some text content was generated using AI.
+* The icons were taken from Font Awesome.
+* I also researched the topic of spiking on various websites to ensure my information was accurate. 
 
-Table of contents
-Project Outline
-Project Planning 
-UX Design 
-User Stories
-Colours
-Fonts
-Wireframes
+### Media
+* The hero image was downloaded from pexels.
 
-Features
-Navigation 
-Hero Section 
-Bootstrap Cards
-Footer
-
-Deployment 
-
-Testing & Validation 
-
-Use of AI
 
